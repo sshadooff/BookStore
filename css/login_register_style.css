@@ -1,0 +1,94 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 45px;
+    margin: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 5px #B7CEB2;
+    border-radius: 20px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 45px;
+    margin: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 5px #B7CEB2;
+    border-radius: 20px;
+}
+
+.login-label,
+.register-label {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    width: 100%;
+    margin: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #B7CEB2;
+    box-shadow: 0 0 8px rgba(183, 206, 178, 0.5);
+    outline: none;
+}
+
+.form-button {
+    padding: 12px;
+    margin: 15px;
+    width: 100%;
+    font-size: 20px;
+    background-color: #B7CEB2;
+    color: #64231A;
+    border-radius: 10px;
+    border-width: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease;    
+}
+
+.form-button:hover {
+    transform: scale(1.03);
+    box-shadow: 0 2px 5px #B7CEB2;
+}
+
+.no-account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.no-account-label {
+    margin-right: 10px;
+}
+
+.have-account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.have-account-label {
+    margin-right: 10px;
+}

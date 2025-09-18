@@ -1,0 +1,101 @@
+.book-catalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border:  1px solid #eee;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.book-photo {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.book-price {
+    font-size: 26px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+.book-price:after {
+	content: ' \20BD';
+}
+
+.book-title {
+    font-size: 24px;
+    padding: 2px 0;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.book-title:hover {
+    color: #B7CEB2;
+}
+
+.book-author {
+    font-size: 14px;
+    color: grey;
+    padding: 2px 0;
+    cursor: pointer;
+}
+
+.book-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buy-button {
+    padding: 10px 15px;
+    margin: 5px;
+    width: 90%;
+    font-size: 18px; 
+    background-color: #B7CEB2;
+    color: #64231A;
+    border-radius: 10px;
+    border-width: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.buy-button:hover {
+    transform: scale(1.03);
+    box-shadow: 0 2px 5px #B7CEB2;
+}
+
+.add-favorites-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.add-favorites-button-class {
+    width: 40px;
+    height: 45px;
+    transition: transform 0.3s ease;
+}
+
+.add-favorites-button-class path {
+    transition: stroke 0.3s ease;
+}
+
+.add-favorites-button-class:hover path {
+    stroke: rgb(250, 84, 131);
+}
+
+.add-favorites-button-class:hover {
+    transform: scale(1.1);
+}
