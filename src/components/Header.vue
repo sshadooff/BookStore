@@ -2,7 +2,7 @@
     <header class="header-class">
         <div class="header-left-section">
             <router-link to="/">
-                <img src="@/assets/logo.png" alt="logo"></img>
+                <img src="@/assets/logo.png" alt="logo">
             </router-link>
         </div>
 
@@ -21,7 +21,7 @@
                 </a>
             </div>
             <div class="header-center-section-search">
-                <router-link to="/">
+                <router-link to="/bookcatalog">
                     <svg class="fill-class header-bookcatalog-class" fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg">
                         <path d="M237.47852,194.54l-8.28223-30.91016h0L196.06787,39.99023a20.02074,20.02074,0,0,0-24.49463-14.14062l-29.5459,7.91663A19.92737,19.92737,0,0,0,128,28H96a19.86774,19.86774,0,0,0-8,1.68152A19.86774,19.86774,0,0,0,80,28H48A20.02229,20.02229,0,0,0,28,48V208a20.02229,20.02229,0,0,0,20,20H80a19.86774,19.86774,0,0,0,8-1.68152A19.86774,19.86774,0,0,0,96,228h32a20.02229,20.02229,0,0,0,20-20V138.78638l19.93213,74.38842a19.99048,19.99048,0,0,0,24.49463,14.14161l30.91015-8.28223h0A20.02181,20.02181,0,0,0,237.47852,194.54ZM161.09131,94.91479l23.18262-6.21142,18.63476,69.54712-23.18213,6.21191ZM173.9209,50.06641l4.1416,15.45532-23.18262,6.21142-4.14111-15.45483ZM124,164H100V52h24ZM76,52V68H52V52ZM52,92H76V204H52Zm48,112V188h24v16Zm90.0791-.90039L185.938,187.64417l23.18213-6.21192,4.14111,15.45545Z"/>
                     </svg>
@@ -42,10 +42,12 @@
                 </svg>
             </router-link>
             <router-link to="/">
-                <svg class="fill-class" fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" id="bebc4dad-06ef-443d-a003-70bb7d4bfbd6" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg">
-                    <g id="4160a8c7-fd52-4fde-a1ea-b7345d585b2b" data-name="user">
-                    <circle cx="12" cy="6" r="5"/>
-                    <path d="M12,13c-5,0-9,3.13-9,7v3.5a0.52,0.52,0,0,0,.53.5H20.47A0.52,0.52,0,0,0,21,23.5V20C21,16.13,17,13,12,13Z"/>
+                <svg class="stroke-class" width="800px" height="800px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" id="Stock_cut" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <desc/>
+                    <g>
+                    <circle cx="16" cy="16" fill="none" r="15" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+                    <path d="M26,27L26,27   c0-5.523-4.477-10-10-10h0c-5.523,0-10,4.477-10,10v0" fill="none" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+                    <circle cx="16" cy="11" fill="none" r="6" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
                     </g>
                 </svg>
             </router-link>
@@ -63,9 +65,9 @@
 </template>
 
 <script>
-    export default {
+export default {
 
-    }
+}
 </script>
 
 <style scoped>
@@ -190,10 +192,12 @@
 }
 
 .stroke-class path,
+.stroke-class circle,
 .fill-class path {
     transition: stroke, fill 0.3s ease;
 }
 
+.stroke-class:hover circle,
 .stroke-class:hover path {
     stroke: #B7CEB2;
 }
@@ -207,6 +211,4 @@
 .fill-class:hover {
     transform: scale(1.2);
 }
-
-
 </style>

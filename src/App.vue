@@ -37,5 +37,10 @@ export default {
 
 .content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 100px;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <main class="content">
+    <div class="main-content">
         <h2>Объявления</h2>
         <div class="advertisement-one">
             <h3 class="advertisement-title">Мы открылись!</h3>
@@ -7,7 +7,7 @@
             <p class="advertisement-text"> Книжный магазин "Ремарк'а" с радостью объявляет об открытии нашего нового веб-сайта! Теперь вы можете с легкостью ознакомиться с полным ассортиментом книг, проверить наличие нужного издания в наших магазинах, оформить онлайн-заказ с доставкой или самовывозом, а также добавить любимые книги в избранное для удобного доступа. Погрузитесь в мир литературы с "Ремарк'а" в любое время и в любом месте!</p>
             <p class="advertisement-date">Дата: 06.10.2025</p>
         </div>
-    </main>
+    </div>
 </template>
 
 <script>
@@ -17,17 +17,14 @@ export default {
 </script>
 
 <style scoped>
-.content {
-    flex: 1;
+.main-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    margin-top: 90px;
 }
 
-.content h2 {
-    margin: 20px;
+.main-content h2 {
+    margin-bottom: 20px;
 }
 
 .advertisement-one {
