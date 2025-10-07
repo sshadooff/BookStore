@@ -1,6 +1,6 @@
 <template>
     <div class="book">
-        <router-link to="/" class="book-link-block">
+        <router-link :to="`/bookcatalog/${book.id}`" class="book-link-block">
             <img class="book-photo" :src="getImageUrl(book.imageFileName)" :alt="book.title">
             <span class="book-price">{{ book.price }}</span>
             <span class="book-title">{{ book.title }}</span>
