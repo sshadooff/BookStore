@@ -36,7 +36,7 @@
         </div>
 
         <div class="header-right-section">
-            <router-link to="/">
+            <router-link to="/favorites">
                 <svg class="stroke-class" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7 3C4.23858 3 2 5.21619 2 7.95C2 10.157 2.87466 15.3947 11.4875 20.6903C11.7994 20.8821 12.2006 20.8821 12.5125 20.6903C21.1253 15.3947 22 10.157 22 7.95C22 5.21619 19.7614 3 17 3C14.2386 3 12 6 12 6C12 6 9.76142 3 7 3Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -51,7 +51,7 @@
                     </g>
                 </svg>
             </router-link>
-            <router-link to="/">
+            <router-link to="/basket">
                 <svg class="stroke-class" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2.31063 11.2425C2.15285 10.6114 2.63021 10 3.28078 10H20.7192C21.3698 10 21.8472 10.6114 21.6894 11.2425L19.8787 18.4851C19.6561 19.3754 18.8562 20 17.9384 20H6.06155C5.14382 20 4.34385 19.3754 4.12127 18.4851L2.31063 11.2425Z" stroke="#000000" stroke-width="2" stroke-linejoin="round"/>
                     <path d="M9 14V16" stroke="#000000" stroke-width="2" stroke-linecap="round"/>

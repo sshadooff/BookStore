@@ -1,8 +1,11 @@
 import MainPage from "@/pages/MainPage.vue"
 import LoginPage from "@/pages/LoginPage.vue";
+import BasketPage from "@/pages/BasketPage.vue";
 import RegisterPage from "@/pages/RegisterPage.vue";
+import FavoritesPage from "@/pages/FavoritesPage.vue";
 import BookCatalogPage from "@/pages/BookCatalogPage.vue";
 import {createRouter, createWebHistory} from "vue-router"
+
 
 const routes = [
     {
@@ -20,6 +23,14 @@ const routes = [
     {
         path: '/register',
         component: RegisterPage, 
+    },
+    {
+        path: '/favorites',
+        component: FavoritesPage, 
+    },
+    {
+        path: '/basket',
+        component: BasketPage, 
     },
 ]
 
