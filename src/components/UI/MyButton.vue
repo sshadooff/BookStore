@@ -14,8 +14,8 @@ export default {
 .buy-button {
     padding: 12px;
     margin: 5px;
-    width: 90%;
-    font-size: 18px; 
+    width: 100%;
+    font-size: 20px; 
     background-color: #B7CEB2;
     color: #64231A;
     border-radius: 10px;

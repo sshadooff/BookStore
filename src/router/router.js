@@ -1,4 +1,6 @@
 import MainPage from "@/pages/MainPage.vue"
+import LoginPage from "@/pages/LoginPage.vue";
+import RegisterPage from "@/pages/RegisterPage.vue";
 import BookCatalogPage from "@/pages/BookCatalogPage.vue";
 import {createRouter, createWebHistory} from "vue-router"
 
@@ -8,8 +10,16 @@ const routes = [
         component: MainPage, 
     },
     {
-        path: '/bookcatalog/',
+        path: '/bookcatalog',
         component: BookCatalogPage, 
+    },
+    {
+        path: '/login',
+        component: LoginPage, 
+    },
+    {
+        path: '/register',
+        component: RegisterPage, 
     },
 ]
 
